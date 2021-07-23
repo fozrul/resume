@@ -79,13 +79,13 @@
             such as, Scrum and Extreme Programming</p>
           <div class="social-icons">
             <a href="https://www.linkedin.com/in/fozrul-islam-68631092/">
-              <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-linkedin-in" data-toggle="tooltip" data-placement="top" title="Linkedin"></i>
             </a>
             <a href="https://gitlab.com/fozrul">
-              <i class="fab fa-gitlab"></i>
+              <i class="fab fa-gitlab" data-toggle="tooltip" data-placement="top" title="Gitlab"></i>
             </a>
             <a href="#">
-              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-facebook-f" data-toggle="tooltip" data-placement="top" title="Facebook"></i>
             </a>
           </div>
         </div>
@@ -319,6 +319,13 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
+
+    <script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+      </script>
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
